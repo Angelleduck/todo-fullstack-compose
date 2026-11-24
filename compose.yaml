@@ -26,8 +26,7 @@ services:
   migrate:
     build:
       context: ./backend
-      target: build
-    command: ["npx", "prisma", "migrate", "deploy"]
+      target: migrate
     environment:
       DATABASE_URL: *database-url
     depends_on:

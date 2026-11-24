@@ -1,0 +1,13 @@
+.git
+.env*
+node_modules
+.output
+.nitro
+.tanstack
+.vinxi
+.wrangler
+dist
+dist-ssr
+coverage
+*.log
+*.tsbuildinfo
